@@ -58,7 +58,7 @@ int FlowMemory::dump(int max_count)
     return max_count;
 }
 
-int FlowMemory::take(int offset, int max_count)
+int FlowMemory::remove(int offset, int max_count)
 {
     int res=0;
     if(max_count<=0) {

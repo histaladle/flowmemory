@@ -16,7 +16,7 @@ public:
     int readableCount();
     int writableCount();
     int dump(int max_count);
-    int take(int offset, int max_count);
+    int remove(int offset, int max_count);
     int read(uint8_t *buf,int buflen);
     int write(uint8_t *buf,int buflen);
     int copy(uint8_t *dst, int size, int offset);
